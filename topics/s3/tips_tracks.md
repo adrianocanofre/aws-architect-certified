@@ -24,3 +24,4 @@
 * Object-based storage only (for files.);  
 * Not suitable to install an operating system on.  
 * When you upload a file to S3, you will receive a HTTP 200 code if the upload was successful;
+* BY DEFAULT BUCKETS ARE PRIVATE AND ALL OBJECTS STORED INSIDE THEM ARE PRIVATE;
