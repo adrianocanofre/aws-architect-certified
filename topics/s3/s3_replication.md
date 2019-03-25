@@ -19,3 +19,6 @@ Amazon s3 replicated only specific items in buckets that are configured for cros
 [Region Codes](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)  
 [CRR Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-add-config.html)  
 [Lab]()
+
+
+[NEXT - CloudFront CDN S3](s3_lifecycle_glacier.md)  

@@ -29,4 +29,6 @@ CloudFront is optimized to work with other Amazon Web Services, like S3, EC2, EL
 
 * Edge locations are not just READ only, you can write to them too.(ie put an object on to them);  
 * Objects are cached for the life of the TTL(Time to Live);  
-* You can clear cached objects, but you will be charged;
+* You can clear cached objects, but you will be charged;  
+
+[Security and Encryption](s3_security.md) 

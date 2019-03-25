@@ -19,3 +19,6 @@
     * Aws Key Management Service, Managed Keys - **SSE-KMS**;  
     * Server Side Encryption with Customer Provided Keys - **SSE-C**;  
 * Client Side Encryption;  
+
+
+[NEXT - Storage Gateway](storage_gateway.md) 
