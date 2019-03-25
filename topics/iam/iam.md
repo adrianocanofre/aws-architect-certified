@@ -1,13 +1,12 @@
 # IAM  
 
-Consists of the following:
+**Consists of the following:**
 * Users
 * Groups
 * Roles
 * Policies
 
-
-What have we learned so far?
+**What have we learned so far?**
 
 * IAM is universal. It does not apply to regions at this time.
 * The "root account" is simply the account created when first setup your AWS account. It has complete Admin access.  
