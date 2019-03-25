@@ -23,7 +23,7 @@
 * [Security and Encryption](topics/s3/s3_security.md)  
 * [Storage Gateway](topics/s3/storage_gateway.md)  
 * [Snowball](topics/s3/snowball.md)  
-
+* [Transfer Acceleration](topics/s3/s3_transfer_acceleration.md)
 * [Overview S3](topics/s3/s3.md)  
 * [Tips&Tracks](topics/s3/tips_tracks.md)  
 
