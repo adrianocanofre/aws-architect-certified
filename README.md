@@ -4,8 +4,8 @@
 ## Menu
 
 #### IAM  
-* [IAM](topics/route53/iam.md)
-* [Tips&Tracks](topics/route53/tips_tracks.md)
+* [IAM](topics/iam/iam.md)
+* [Tips&Tracks](topics/iam/tips_tracks.md)
 
 #### Route53
 * [Overview Route53](topics/route53/Route53.md)
