@@ -8,6 +8,11 @@
 * S3 is a universal namespace. That is, names must be unique globally;  
 * Read after write consistency for PUTS of new Objects;
 * Eventual consistency for overwrite PUTS and DELETS(can take some time to propagate);  
+* Object-based storage only (for files.);  
+* Not suitable to install an operating system on.  
+* When you upload a file to S3, you will receive a HTTP 200 code if the upload was successful;
+* BY DEFAULT BUCKETS ARE PRIVATE AND ALL OBJECTS STORED INSIDE THEM ARE PRIVATE;
+* You can turn on MFA Delete;  
 * S3 Storage Classes/Tiers:  
   * S3 - durable, immediately available, frequently accessed;  
   * S3 IA - durable, immediately available, infrequently accessed;  
@@ -21,7 +26,3 @@
   * Subresources:  
     * ACL;  
     * torrent;
-* Object-based storage only (for files.);  
-* Not suitable to install an operating system on.  
-* When you upload a file to S3, you will receive a HTTP 200 code if the upload was successful;
-* BY DEFAULT BUCKETS ARE PRIVATE AND ALL OBJECTS STORED INSIDE THEM ARE PRIVATE;
