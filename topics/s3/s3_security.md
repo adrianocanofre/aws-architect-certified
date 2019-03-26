@@ -15,7 +15,7 @@
   * SSL/TLS;  
 * At Rest:  
   * Server Side Encryption:  
-    * S3 Managed Keys - **SSE-S#**;
+    * S3 Managed Keys - **SSE-S3**;
     * Aws Key Management Service, Managed Keys - **SSE-KMS**;  
     * Server Side Encryption with Customer Provided Keys - **SSE-C**;  
 * Client Side Encryption;  
