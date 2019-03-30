@@ -33,12 +33,6 @@ Ex:
 Alias records are used to map resource record sets in your hosted Zone to Elastic Load Balancers, CloudFront distrivutions, or s3 buckets that are configured as websites.  
 
 
-#### Exam Tips
-
-* ELBs do not have pre-defined IPv4 addresses; you resolve to them using a DNS name;  
-* Difference between an Alias Record and a CNAME;  
-* Each zone contains a single SOA record;  
-
 ## Routing Policies Available On AWS  
 
 * Simple Routing  
