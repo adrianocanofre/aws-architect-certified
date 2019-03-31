@@ -24,13 +24,14 @@ The length that a DNS record is cached on either the Resolving Server or the use
 
 #### CNames( Canonical Name)  
 
-A CNames can be used to resolve one domain name to another.  
+A CNames can be used to resolve one domain name to another. A CNAME record assigns an Alias name to a Canonical Name.  
 Ex:  
 > n.adrianocanofre.dev to mobile.adrianocanofre.dev
 
 ### Alias Records  
 
-Alias records are used to map resource record sets in your hosted Zone to Elastic Load Balancers, CloudFront distrivutions, or s3 buckets that are configured as websites.  
+Alias records are used to map resource record sets in your hosted Zone to Elastic Load Balancers, CloudFront distributions, or s3 buckets that are configured as websites.   
+Alias Records provide a Route 53–specific extension to DNS functionality
 
 
 ## Routing Policies Available On AWS  
@@ -40,4 +41,6 @@ Alias records are used to map resource record sets in your hosted Zone to Elasti
 * Latency-based Routing  
 * Failover Routing
 * Geolocation Routing
-* Multivalue Answer Routing
+* Multivalue Answer Routing  
+
+[More information about DNS record types](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html)

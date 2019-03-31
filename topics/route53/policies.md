@@ -20,10 +20,12 @@ A health check monitors the health of your end points.
 
 ### Geolocation Routing  
 
-Geolocation routing lets you choose where your traffic will be sent based on the geographic location of your users (ie the location from which DNS queries originate).
+Geolocation routing lets you choose where your traffic will be sent based on the geographic location of your users (ie the location from which DNS queries originate). For example, you might want all queries from Europe to be routed to an ELB load balancer in the Frankfurt region.   
 
 
 ###  Multivalue Answer Routing   
 
 Multivalue answer routing lets you configure Route53 to return multiple values, such as IP addresses for your web servers, in response to DNS queries. You can specify multiple values for almost any record, but multivalue answer routing also lets you check the health of each resource, so Route 53 returns only values for healthy resources.  
-This is similar to simple routing however it allows you to put health checks on each record set.  
+This is similar to simple routing however it allows you to put **health checks** on each record set.   
+
+[More information about policies](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)
