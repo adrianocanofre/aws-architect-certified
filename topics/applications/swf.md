@@ -1,7 +1,7 @@
 # SWF(Simple Workflow Service)  
 
 
-SWF is a web service that makes it easy to cordinate work across distributed application components. Amazon SWF anables applications for a range of use cases, including media processing, web applications beck-ends, business process workfloes, and analytics pipelines, to be designed as a coordination of tasks.  
+SWF is a web service that makes it easy to coordinate work across distributed application components. Amazon SWF enables applications for a range of use cases, including media processing, web applications beck-ends, business process workflows, and analytics pipelines, to be designed as a coordination of tasks.  
 Tasks represent invocations fo various processing steps in an application which can be performed by executable code, web service calls, human actions, and scripts.  
 
 **SWF Workes**  
@@ -32,7 +32,7 @@ Maximum Workflow can be 1 year and the value is always measured in seconds.
 
 * Amazon SWF presents a task-oriented API, whereas SQS offers a message-oriented API.  
 * SWF ensures that a task is assigned only once and is never duplicated. With SQS, you need to ensure that a message is processed only once.  
-* SWF keeps track of all the tasks and events in an application. With Amazon SQS, you need to implement your own application-level tracking, especially if yout application uses multiples queues.
+* SWF keeps track of all the tasks and events in an application. With Amazon SQS, you need to implement your own application-level tracking, especially if your application uses multiples queues.
 
 
 [Development Options](https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-welcome.htm)
