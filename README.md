@@ -34,10 +34,10 @@
 #### VPC  
 
 #### Application Services  
-* [SQS](topics/appservices/sqs.md)
-* [SWF](topics/appservices/swf.md)
-* [SNS](topics/appservices/sns.md)
-* [Elastic Transcoder](topics/appservices/elastic_transcoder.md)
-* [API Gateway](topics/appservices/api_gateway.md)
-* [Kinesis](topics/appservices/kinesis.md)
-* [Kinesis](topics/appservices/tips_tracks.md)
+* [SQS](topics/applications/sqs.md)
+* [SWF](topics/applications/swf.md)
+* [SNS](topics/applications/sns.md)
+* [Elastic Transcoder](topics/applications/elastic_transcoder.md)
+* [API Gateway](topics/applications/api_gateway.md)
+* [Kinesis](topics/applications/kinesis.md)
+* [Kinesis](topics/applications/tips_tracks.md)
