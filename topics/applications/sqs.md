@@ -16,7 +16,7 @@ A stanard queue lets you have a nearly-unlimited number of transactions per seco
 * FIFO(First-In-First-Out)  
 FIFO queue complements the standard queue. The most important features of this queue type are FIFO delivery and exactly-once processing: The order in which messages are sent and received is strictly preserved and a message is delivered once and remains available until a consumer processes and deletes it; duplicated are not introduced into the queue.  
 FIFO queues also support message groups that allow multiple ordered message groups within a single queue.  
-FIFO queues are limited to 3000 transactions per second(TPS), but have all the capabilities of standard queues.  
+FIFO queues are limited to 300 transactions per second(TPS), but have all the capabilities of standard queues.  
 
 **SQS Key Facts**  
 * SQS is pull-based, not pushed-based;  
