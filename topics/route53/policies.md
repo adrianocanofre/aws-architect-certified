@@ -1,4 +1,4 @@
-
+# Routing Policy  
 
 ### Simple Route Policy  
 
@@ -14,12 +14,16 @@ Latency based routing allows you to route your traffic based on the lowest netwo
 
 ### Failover Routing  
 
-Failover routing policy are used when you want to create an active/passive set up/ For exemple, you may want your primary site to be in EU-WEST-2 and your secondary  DR site in AP-SOUTHEAST-2.  
+Failover routing policy are used when you want to create an active/passive set up. For exemple, you may want your primary site to be in EU-WEST-2 and your secondary  DR site in AP-SOUTHEAST-2.  
 Route53 will monitor the health of your primary site using health check.  
+A health check monitors the health of your end points.  
 
 ### Geolocation Routing  
 
 Geolocation routing lets you choose where your traffic will be sent based on the geographic location of your users (ie the location from which DNS queries originate).
 
 
-###  Multivalue Answer Routing  
+###  Multivalue Answer Routing   
+
+Multivalue answer routing lets you configure Route53 to return multiple values, such as IP addresses for your web servers, in response to DNS queries. You can specify multiple values for almost any record, but multivalue answer routing also lets you check the health of each resource, so Route 53 returns only values for healthy resources.  
+This is similar to simple routing however it allows you to put health checks on each record set.  
