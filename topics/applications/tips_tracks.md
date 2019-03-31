@@ -8,7 +8,7 @@
 > FALSE  
 
 **What happens when you create a topic on Amazon SNS?**
-> Nothing, as topics are specific to Amazon SQS.  
+> An Amazon Resource Name is created.  
 
 **Auditing user access/API calls etc across the entire AWS estate can be achieved by using ________.**  
 > CloudTrail  
@@ -17,4 +17,4 @@
 > True
 
 **In SWF, what does a "domain" refer to?**  
-> A collection of related workflows 
+> A collection of related workflows
