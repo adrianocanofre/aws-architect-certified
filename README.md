@@ -7,13 +7,6 @@
 * [IAM](topics/iam/iam.md)
 * [Tips&Tracks](topics/iam/tips_tracks.md)
 
-#### Route53
-* [Overview Route53](topics/route53/Route53.md)
-* [Policies](topics/route53/policies.md)
-* [DNS](topics/route53/dns_types.md)
-* [Tips&Tracks](topics/route53/tips_tracks.md)
-
-
 #### Object Storage and CDN  
 * [Overview S3](topics/s3/s3.md)  
 * [S3 Version Control](topics/s3/s3_versioning.md)  
@@ -27,7 +20,15 @@
 * [Release Reviews](topics/s3/release_reviews.md)  
 * [Tips&Tracks](topics/s3/tips_tracks.md)  
 
+
 #### EC2  
+* [Overview EC2](topics/ec2/ec2.md)
+
+#### Route53
+* [Overview Route53](topics/route53/Route53.md)
+* [Policies](topics/route53/policies.md)
+* [DNS](topics/route53/dns_types.md)
+* [Tips&Tracks](topics/route53/tips_tracks.md)  
 
 #### Database  
 
