@@ -69,4 +69,5 @@ EC2 is a web service that provides resizable compute capacity in the cloud. EC2 
 
 ### Documentation  
 
-[Instance Lifecycle](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
+[Instance Lifecycle](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)  
+[Best Practices for EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-best-practices.html)
