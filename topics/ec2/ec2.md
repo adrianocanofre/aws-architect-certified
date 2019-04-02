@@ -51,17 +51,17 @@ EC2 is a web service that provides resizable compute capacity in the cloud. EC2 
 | F1 | Field Programmable<br/> gate array| Genomics research, financial analytics, real-time video<br/> processing, big data, etc. |
 | I3| High Speed Storage| NoSQL DBs, Data warehousing, etc.|
 | G3| Graphics Intensive| Video Encoding, 3D Applications Streaming|
-| H1|  High Disk Throughput|  MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS| 
-| T3| | |
-| D2| | |
-| R5| | |
-| M5| | |
-| C5| | |
-| P3| | |
-| X1| | |
-| Z1D| | |
-| A1| | |
-| U-6TB1| | |
-| | | |
-| | | |
-| | | |
+| H1|  High Disk Throughput|  MapReduce-based workloads, distributed file systems such as HDFS and MapR-FS|
+| T3| Lowest cost, General purpose| Web servers, small DBs|
+| D2| Dense Storage| Fileservers/Data Warehousing/Hadoop|
+| R5| Memory Optimized| Memory intensive Apps/DBs|
+| M5| General Purpose| Application service|
+| C5| Compute Optimized|  CPU Intensive Apps/DBs|  
+| P3| Graphics/General Purpose GPU| Machine Learning, Bit Coin Mining etc|
+| X1| Memory Optimized| SAP HANA/ Apache Spark|
+| Z1D| High compute capacity and a high memory footprint| Ideal for electronic design automation (EDA) and certain relational db workloads with high per-core licensing etc.|
+| A1| Arm-based workloads|  Scale-out workloads such as web servers.|
+| U-6TB1| Bare Metal| Bare metal capabilities that eliminate virtualization overhead| 
+
+**Memorization**  
+**F** for FPGA, **I** for IOPS, **G** for graphics, **H** for high Disk Throughput, **T** for cheap general purpose(think T2micro), **D** for Density, **R** for RAM, **M** for Main choice for general purpose apps, **C** for compute, **P** for graphics(Pics), **X** for extreme memory, **Z** for extreme memory and CPU, **A** for Arm-based workloads, **U** Bare Metal.
