@@ -29,3 +29,6 @@ Magnetic volumes are backed by magnetic drives and are suited for workloads wher
 ##### Compare EBS types  
 
 ![EBS Types](/imgs/ebs_volume_types.png)
+
+
+[Amazon EBS Volume Types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html#EBSVolumeTypes_standard)

@@ -25,6 +25,7 @@
 * [Overview EC2](topics/ec2/ec2.md)
 * [Security Group](topics/ec2/security_group.md)
 * [EBS](topics/ec2/ebs.md)
+* [Snapshots](topics/ec2/snapshots.md)
 
 #### Route53
 * [Overview Route53](topics/route53/route53.md)
