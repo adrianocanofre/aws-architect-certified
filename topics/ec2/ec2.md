@@ -61,7 +61,12 @@ EC2 is a web service that provides resizable compute capacity in the cloud. EC2 
 | X1| Memory Optimized| SAP HANA/ Apache Spark|
 | Z1D| High compute capacity and a high memory footprint| Ideal for electronic design automation (EDA) and certain relational db workloads with high per-core licensing etc.|
 | A1| Arm-based workloads|  Scale-out workloads such as web servers.|
-| U-6TB1| Bare Metal| Bare metal capabilities that eliminate virtualization overhead| 
+| U-6TB1| Bare Metal| Bare metal capabilities that eliminate virtualization overhead|
 
 **Memorization**  
 **F** for FPGA, **I** for IOPS, **G** for graphics, **H** for high Disk Throughput, **T** for cheap general purpose(think T2micro), **D** for Density, **R** for RAM, **M** for Main choice for general purpose apps, **C** for compute, **P** for graphics(Pics), **X** for extreme memory, **Z** for extreme memory and CPU, **A** for Arm-based workloads, **U** Bare Metal.
+
+
+### Documentation  
+
+[Instance Lifecycle](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
