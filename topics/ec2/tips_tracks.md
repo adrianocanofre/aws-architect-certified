@@ -42,4 +42,24 @@
 * Instance store volumes cannot be stopped. If the underlying host fails, you will lose your data;  
 * EBS backed instances can be stopped. You will not lose the data on this instance if it is stopped;  
 * You can reboot both, you will not lose your data;  
-* By default, both ROOT volumes will be deleted on termination. However, with EBS volumes, you can tell AWS to keep the root device volume; 
+* By default, both ROOT volumes will be deleted on termination. However, with EBS volumes, you can tell AWS to keep the root device volume;
+
+
+#### CloudWatch  
+
+* CloudWatch is used for monitoring performance;  
+* CloudWatch can monitor most of AWS as well as your applications that run on AWS;  
+* CloudWatch with EC2 will monitor events every 5 minutes by default;  
+* You can have 1 minute intervals by turning on detailed monitoring;  
+* You can create CloudWatch alarms which trigger notifications;  
+* CloudWatch monitors performance;  
+* CloudTrail is all about auditing, monitor API call in the AWS platform;  
+* Standard Monitoring = 5 minutes;  
+* Detailed Monitoring  = 1 minute;
+
+**What can I do with CloudWatch?**   
+
+* Dashboard - Create awesome  dashboard to see what is happening with your AWS environment;  
+* Alarms - Allows you to set Alarms that notify you when particular thresholds are hit;  
+* Events - CloudWatch Events helps you to respond to state changes in your AWS resources;  
+* Logs - CloudWatch logs helps you to aggregate, monitor, and store logs;  
