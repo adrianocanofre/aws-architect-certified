@@ -26,6 +26,9 @@ Encryption at rest is supported for MySQL, Oracle, SQL Server, PostgreSQL, Maria
 
 Multi-AZ allows you to have exact copy of your production database in another AZ. AWS handles the replication for you, so when your production  database is written to, this write will automatically be synchronized to the stand by database.  
 
+* Used for DR;  
+* You can force a failover from one AZ to another by rebooting the RDS instance;  
+
 In the event of planned database maintenance, DB instance failure, or an AZ failure, Amazon RDS will automatically failover to the standby so that database operations can resume quickly without administrative intervention.  
 
 Is available for:  
@@ -35,7 +38,7 @@ Is available for:
 * PostgreSQL;  
 * MariaDB;
 
-Read Replica  
+**Read Replica**  
 
 Read replicas allow you to have a read-only copy of your production database. This is achieved by using Asynchronous replication from the primary RDS instance to the read replica. You use read replicas primarily for very read-heavy database workloads.  
 
@@ -55,3 +58,7 @@ Things to know about Read Replicas:
 * You can create read replicas of Multi-AZ source databases;
 * Read replicas can be promoted to be their own databases. This breaks the replication;  
 * You can have a read replica in a second region;  
+* Used to increase performance;  
+* Can be in different regions;  
+* Can be Aurora or MySQL;  
+* Must have backups turned on;  
