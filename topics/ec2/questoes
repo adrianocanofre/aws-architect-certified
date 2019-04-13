@@ -1,0 +1,27 @@
+There are a number of ways you can optimise performance above that of choosing the correct EBS type. One of the easiest options (and the first option on the list) is to drive more I/O throughput than you can provision for a single EBS volume, by striping using RAID 0. You can join multiple gp2, io1, st1, or sc1 volumes together in a RAID 0 configuration to use the available bandwidth for these instances. The second option is to choose an EC2 instance type that supports EBS optimisation. This ensures that network traffic cannot contend with traffic between your instance and your EBS volumes. The final correct choice is the last option and only relates to HDD based EBS volumes. When you create a snapshot of a Throughput Optimized HDD (st1) or Cold HDD (sc1) volume, performance may drop as far as the volume's baseline value while the snapshot is in progress. This behaviour is specific to these volume types. Therefore you should ensure that scheduled snapshots are carried at times of low usage. The one option on the list which is entirely incorrect is the option that states "Never use HDD volumes, always ensure that SSDs are used" as the question first states "In addition to choosing the correct EBS volume type for your specific task". HDDs may well be suitable to certain tasks and therefore they shouldn't be discounted because they may not have have the highest specification on paper. Further information:
+
+
+
+Placement Groups can be created across 2 or more Availability Zones.
+True
+
+
+Is it possible to perform actions on an existing Amazon EBS Snapshot?
+Yes, through the AWS APIs, CLI, and AWS Console.
+
+
+EBS Snapshots are backed up to S3 in what manner?
+Incrementally
+
+The use of a placement group is ideal _______
+Your fleet of EC2 instances requires high network throughput and low latency within a single availability zone.
+
+Can I delete a snapshot of an EBS Volume that is used as the root device of a registered AMI?
+no
+
+Can you attach an EBS volume to more than one EC2 instance at the same time?
+No
+
+
+Can I move a reserved instance from one region to another?
+No
