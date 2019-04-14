@@ -35,4 +35,8 @@ Additionally, you can create a Hardware Virtual Private Network(VPN) connection 
 * Peering is in a star configure: ie 1 central VPC peers with 4 others. NO TRANSITIVE PEERING;  
 * You can peer between regions;  
 
-[IMG]
+[IMG]  
+
+
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
