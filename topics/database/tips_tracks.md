@@ -7,8 +7,24 @@
 * RDS is not serverless;  
 * Patching of the RDS Operating System and DB is Amazon's responsability;  
 * Aurora Serverless is Serverless;  
+* RDS(OLTP):
+  * SQL  
+  * MySQL  
+  * PostgreSQL  
+  * Oracle  
+  * Aurora  
+  * MariaDB  
+* DynamoDB(No SQL)
+* Red Shift OLAP  
 
+### Read Replicas  
 
+* Can be Multi-AZ;
+* Used to increase performance;  
+* Must have backups turned on;  
+* Can be in different regions;  
+* Can be Aurora or MySQL;  
+* Can be promoted to master, this will break the replication with the Read Replica;
 
 ### DynamoDB  
 
@@ -29,6 +45,7 @@
 * Maximum retention period is 35 days;  
 * Redshift always attempts to maintain at least three copies of your data (the original and replica on the compute nodes and a backups in Amazon S3);  
 * Redshift can also asynchronously replicate your snapshots to S3 in another region for disaster recovery;  
+* In RDS, changes to the backup window take effect immediately;  
 
 ### Aurora  
 
@@ -36,3 +53,11 @@
 * You can share Aurora Snapshots with other AWS accounts;  
 * 2 types of replicas available. Aurora Replicas and MySQL replicas. Automated failover is only available with Aurora Replicas;  
 * Aurora has automated backups turned on by default. You can also takes snapshots with Aurora. You can share these snapshots with other AWS accounts;  
+
+
+### ElastiCache  
+
+* Use Elasticache to increase database and web application performance;  
+* Redis is Multi-AZ;  
+* You can do back ups and restores of Redis;  
+* If you need to scale horizontally, use Memcached;  

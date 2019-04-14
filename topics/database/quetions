@@ -1,0 +1,13 @@
+If you are using Amazon RDS Provisioned IOPS storage with a Microsoft SQL Server database engine, what is the maximum size RDS volume you can have by default?
+16TB
+
+
+What data transfer charge is incurred when replicating data from your primary RDS instance to your secondary RDS instance?
+There is no charge associated with this action.
+
+When you add a rule to an RDS DB security group, you must specify a port number or protocol.
+False(http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.RDSSecurityGroups.html)
+
+
+You can RDP or SSH in to an RDS instance to see what is going on with the operating system.
+False
