@@ -15,4 +15,6 @@
 * These are not the same as a password. You cannot use the Access Key ID & Secret Access Key to login in to the console.  
 * You only get to view these once. If you lose them , you have regenerate them.  
 * Always setup MFA on your root account.  
-* You can create and customise your own password rotation policies.
+* You can create and customize your own password rotation policies.
+
+[NEXT - IAM tips](tips.md)  

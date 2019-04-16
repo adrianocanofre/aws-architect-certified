@@ -5,7 +5,7 @@
 
 #### IAM  
 * [IAM](topics/iam/iam.md)
-* [Tips](topics/iam/tips_tracks.md)
+* [Tips](topics/iam/tips.md)
 
 #### Object Storage and CDN  
 * [Overview S3](topics/s3/s3.md)  
@@ -18,7 +18,7 @@
 * [Snowball](topics/s3/snowball.md)  
 * [Transfer Acceleration](topics/s3/s3_transfer_acceleration.md)
 * [Release Reviews](topics/s3/release_reviews.md)  
-* [Tips](topics/s3/tips_tracks.md)  
+* [Tips](topics/s3/tips.md)  
 
 
 #### EC2  
@@ -30,11 +30,6 @@
 * [Encrypted](topics/ec2/encrypted_device.md)
 * [CloudWatch](topics/ec2/cloudwatch.md)
 
-#### Route53
-* [Overview Route53](topics/route53/route53.md)
-* [Policies](topics/route53/policies.md)
-* [DNS](topics/route53/dns_types.md)
-* [Tips](topics/route53/tips_tracks.md)  
 
 #### Database  
 * [Overview Route53](topics/database/overview.md)
@@ -43,7 +38,13 @@
 * [Redshift](topics/database/redshift.md)
 * [Aurora](topics/database/aurora.md)
 * [ElastiCache](topics/database/elasticache.md)
-* [Tips](topics/database/tips_tracks.md)  
+* [Tips](topics/database/tips.md)
+
+#### Route53
+* [Overview Route53](topics/route53/route53.md)
+* [Policies](topics/route53/policies.md)
+* [DNS](topics/route53/dns_types.md)
+* [Tips](topics/route53/tips.md)   
 
 #### VPC  
 * [Overview](topics/vpc/overview.md)  
@@ -54,6 +55,8 @@
 * [VPC Endpoints](topics/vpc/vpc_endpoints.md)  
 * [Tips](topics/vpc/tips.md)  
 
+### HA Architecture  
+
 #### Application Services  
 * [SQS](topics/applications/sqs.md)
 * [SWF](topics/applications/swf.md)
@@ -61,4 +64,4 @@
 * [Elastic Transcoder](topics/applications/elastic_transcoder.md)
 * [API Gateway](topics/applications/api_gateway.md)
 * [Kinesis](topics/applications/kinesis.md)
-* [Kinesis](topics/applications/tips_tracks.md)
+* [Kinesis](topics/applications/tips.md)
