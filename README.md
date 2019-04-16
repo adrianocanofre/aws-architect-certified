@@ -67,4 +67,4 @@
 * [Elastic Transcoder](topics/applications/elastic_transcoder.md)
 * [API Gateway](topics/applications/api_gateway.md)
 * [Kinesis](topics/applications/kinesis.md)
-* [Kinesis](topics/applications/tips.md)
+* [Tips](topics/applications/tips.md)

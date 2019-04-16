@@ -39,3 +39,5 @@ One topic can support deliveries to multiple endpoint types -- for example, you 
 * $0.06 per 100,000 Notification deliveries over HTTP;  
 * $0.75 per 100 Notification deliveries over SMS;  
 * $2.00 per 100,000 Notification deliveries over Email;  
+
+[NEXT - Elastic Transcoder](elastic_transcoder.md)

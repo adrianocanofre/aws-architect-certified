@@ -30,3 +30,5 @@ Streaming Data is data that is generated continuously by thousands of data sourc
 
 * Know the difference between Kinesis Streams and Kinesis Firehose. You will given scenario questions and you must choose the most relevant service.  
 * Understand what Kinesis Analytics is.  
+
+[NEXT - Tips](tips.md)

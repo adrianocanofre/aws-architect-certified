@@ -69,3 +69,5 @@ Cross-origin resource sharing (CORS) is a mechanism that allows restricted resou
 * CORS is enforced by the client;  
 
 [API Gateway structure](https://docs.aws.amazon.com/apigateway/api-reference/)
+
+[NEXT - Kinesis](kinesis.md)

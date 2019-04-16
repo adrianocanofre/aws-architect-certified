@@ -48,3 +48,5 @@ Maximum Workflow can be 1 year and the value is always measured in seconds.
 
 
 [Development Options](https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-welcome.htm)
+
+[NEXT - SNS](sns.md)

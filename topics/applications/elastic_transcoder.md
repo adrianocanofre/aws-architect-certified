@@ -8,3 +8,6 @@ What is Elastic Transcoder?
 * Pay based on the minutes that you transcode and the resolution as which you transcode.  
 
 Just remember that Elastic Transcoder is a media transcoder in the cloud. It converts media files from their original source format in to different formats that will play on smartphones, tablets, PCs, etc.
+
+
+[NEXT - Api Gateway](api_gateway.md)
