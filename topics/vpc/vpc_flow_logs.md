@@ -7,3 +7,6 @@ VPC Flow logs is a feature that enables you to capture information about the IP 
 * VPC;  
 * Subnet;  
 * Network Interface Level;  
+
+
+[NEXT - Direct Connect](vpc/direct_connect.md)

@@ -15,3 +15,5 @@ Currently Gateway Endpoints Support:
 
 * S3
 * DynamoDB
+
+[NEXT - Tips](vpc/tips.md)
