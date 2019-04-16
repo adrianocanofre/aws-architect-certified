@@ -5,7 +5,7 @@
 
 #### IAM  
 * [IAM](topics/iam/iam.md)
-* [Tips&Tracks](topics/iam/tips_tracks.md)
+* [Tips](topics/iam/tips_tracks.md)
 
 #### Object Storage and CDN  
 * [Overview S3](topics/s3/s3.md)  
@@ -18,7 +18,7 @@
 * [Snowball](topics/s3/snowball.md)  
 * [Transfer Acceleration](topics/s3/s3_transfer_acceleration.md)
 * [Release Reviews](topics/s3/release_reviews.md)  
-* [Tips&Tracks](topics/s3/tips_tracks.md)  
+* [Tips](topics/s3/tips_tracks.md)  
 
 
 #### EC2  
@@ -34,11 +34,25 @@
 * [Overview Route53](topics/route53/route53.md)
 * [Policies](topics/route53/policies.md)
 * [DNS](topics/route53/dns_types.md)
-* [Tips&Tracks](topics/route53/tips_tracks.md)  
+* [Tips](topics/route53/tips_tracks.md)  
 
 #### Database  
+* [Overview Route53](topics/database/overview.md)
+* [RDS](topics/database/rds.md)
+* [DynamoDB](topics/database/dynamodb.md)
+* [Redshift](topics/database/redshift.md)
+* [Aurora](topics/database/aurora.md)
+* [ElastiCache](topics/database/elasticache.md)
+* [Tips](topics/database/tips_tracks.md)  
 
 #### VPC  
+* [Overview](topics/vpc/overview.md)  
+* [NAT](topics/vpc/nat.md)  
+* [ACL](topics/vpc/acl.md)  
+* [VPC Flow Logs](topics/vpc/vpc_flow_logs.md)  
+* [Direct Connect](topics/vpc/direct_connect.md)  
+* [VPC Endpoints](topics/vpc/vpc_endpoints.md)  
+* [Tips](topics/vpc/tips.md)  
 
 #### Application Services  
 * [SQS](topics/applications/sqs.md)
