@@ -11,4 +11,4 @@
   * Archive to the Glacier Storage Class(30 days after IA, if relevant);  
   * Permanently Delete;  
 
-[NEST - CloudFront CDN S3](cloudfront.md)  
+[NEXT - Cross Region Replication](s3_replication.md)  

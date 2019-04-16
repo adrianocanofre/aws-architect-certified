@@ -63,3 +63,5 @@
 * Alarms - Allows you to set Alarms that notify you when particular thresholds are hit;  
 * Events - CloudWatch Events helps you to respond to state changes in your AWS resources;  
 * Logs - CloudWatch logs helps you to aggregate, monitor, and store logs;  
+
+[NEXT - Route53](../route53/overview.md)

@@ -50,3 +50,6 @@ Amazon Redshift automatically distribute data and query load across all nodes. A
 
 * Currently only available in 1 AZ;  
 * Can restore snapshots to new AZs in the event of an outage;  
+
+
+[NEXT - Aurora](../database/aurora.md)

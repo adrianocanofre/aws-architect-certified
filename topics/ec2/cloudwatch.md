@@ -29,3 +29,5 @@ CloudTrail vs CloudWatch
 
 * CloudWatch monitors performance;  
 * CloudTrail monitors API calls in the AWS platform;  
+
+[NEXT - IAM Roles](roles_ec2.md)

@@ -31,4 +31,4 @@ CloudFront is optimized to work with other Amazon Web Services, like S3, EC2, EL
 * Objects are cached for the life of the TTL(Time to Live);  
 * You can clear cached objects, but you will be charged;  
 
-[Security and Encryption](s3_security.md) 
+[SnowBall](snowball.md) 

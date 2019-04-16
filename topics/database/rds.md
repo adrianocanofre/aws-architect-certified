@@ -62,3 +62,6 @@ Things to know about Read Replicas:
 * Can be in different regions;  
 * Can be Aurora or MySQL;  
 * Must have backups turned on;  
+
+
+[NEXT - DynamoDB](../database/dynamoDB.md)

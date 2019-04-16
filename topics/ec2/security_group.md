@@ -6,3 +6,5 @@ The rules of a sg control the inbound that's allowed to reach the instances that
 
 
 [Security group](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html#security-group-rules)
+
+[NEXT - EBS](ebs.md)

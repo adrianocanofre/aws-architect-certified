@@ -29,6 +29,9 @@
 * [AMI Types](topics/ec2/ami.md)  
 * [Encrypted](topics/ec2/encrypted_device.md)
 * [CloudWatch](topics/ec2/cloudwatch.md)
+* [IAM Roles EC2](topics/ec2/roles_ec2.md)  
+* [EFS](topics/ec2/efs.md)
+* [TIPS](topics/ec2/tips.md)
 
 
 #### Database  

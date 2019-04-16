@@ -41,4 +41,4 @@ Tape Gateway offers a durable, cost-effective solution to archive your data in t
 * Gateway Virtual Tape Library(VTL):  
   * Used for backup and uses popular backup applications like NetBackup, Backup Exec, Veeam etc.  
 
-[NEXT - Snowball](snowball.md)  
+[NEXT - Tips](tips.md)  

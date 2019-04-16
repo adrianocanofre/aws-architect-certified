@@ -28,4 +28,7 @@ Geolocation routing lets you choose where your traffic will be sent based on the
 Multivalue answer routing lets you configure Route53 to return multiple values, such as IP addresses for your web servers, in response to DNS queries. You can specify multiple values for almost any record, but multivalue answer routing also lets you check the health of each resource, so Route 53 returns only values for healthy resources.  
 This is similar to simple routing however it allows you to put **health checks** on each record set.   
 
-[More information about policies](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)
+[More information about policies](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)  
+
+
+[NEXT - DNS Types](dns_types.md)

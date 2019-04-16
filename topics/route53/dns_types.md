@@ -202,4 +202,7 @@ Ex API
 <Value>"This string includes \"quotation marks\"."</Value>
 <Value>"The last character in this string is an accented e specified in octal format: \351"</Value>
 <Value>"v=spf1 ip4:192.168.0.1/16 -all"</Value>
-```
+```   
+
+
+[NEXT - Tips](tips.md)

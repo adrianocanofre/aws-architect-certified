@@ -6,3 +6,6 @@ ElastiCache is a web service that makes it easy to deploy, operate, and scale an
 Support 2 open-source in-memory caching engines:
 
 [IMG]
+
+
+[NEXT - Tips](../database/tips.md)

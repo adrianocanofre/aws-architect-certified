@@ -19,3 +19,5 @@ All AMIs are categorized as either backed by  Amazon EBS or backed by instance s
 For EBS: The root device for an instance launched from the AMI is an EBS volume created from an EBS snapshot.  
 
 For Instance Store Volumes: The root device for an instance launched from the AMI is an instance store volume created from a template stored in S3.
+
+[NEXT - Encrypted Device](encrypted_device.md)

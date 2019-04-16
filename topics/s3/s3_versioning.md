@@ -13,4 +13,4 @@
 
 [S3 Versioning](https://docs.aws.amazon.com/AmazonS3/latest/dev/ObjectVersioning.html)  
 
-[NEST - Cross Region Replication](s3_replication.md)  
+[NEXT - lifecycle](s3_lifecycle.md)  

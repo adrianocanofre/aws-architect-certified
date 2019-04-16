@@ -22,4 +22,4 @@ Snowmobile is an Exabyte-scale data transfer service used to move extremely larg
   * Import to S3;
   * Export from S3;
 
-* [Overview S3](s3_transfer_acceleration.md) 
+* [Storage Gateway](storage_gateway.md)

@@ -21,4 +21,4 @@
 * Client Side Encryption;  
 
 
-[NEXT - Storage Gateway](storage_gateway.md) 
+[NEXT - S3 Version Control](s3_versioning.md)  

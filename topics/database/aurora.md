@@ -26,3 +26,6 @@ About Aurora:
 * Automated backups are always enabled on Amazon Aurora DB Instances. Backups do not impact database performance;  
 * You can also take snapshots with Aurora. This also does not impact on performance;  
 * You can share Aurora Snapshots with other AWS accounts;  
+
+
+[NEXT - ElastiCache](../database/elasticache.md)

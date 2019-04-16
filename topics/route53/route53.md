@@ -44,3 +44,6 @@ Alias Records provide a Route 53–specific extension to DNS functionality
 * Multivalue Answer Routing  
 
 [More information about DNS record types](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html)
+
+
+[NEXT - Routing Policies](policies.md)

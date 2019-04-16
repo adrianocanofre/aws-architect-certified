@@ -12,3 +12,5 @@
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/building-shared-amis.html  
 https://aws.amazon.com/articles/public-ami-publishing-hardening-and-clean-up-requirements/
+
+[NEXT - Cloud Watch](cloudwatch.md)

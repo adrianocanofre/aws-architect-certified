@@ -18,3 +18,5 @@ Basics of DynamoDB are as follows:
 #### Strongly Consistent Reads  
 
 * A strongly consistent read returns a result that reflects all writes that reveived a successful response prior to the read.  
+
+[NEXT - Redshift](../database/redshift.md)

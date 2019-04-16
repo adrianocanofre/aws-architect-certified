@@ -21,4 +21,4 @@ Amazon s3 replicated only specific items in buckets that are configured for cros
 [Lab]()
 
 
-[NEXT - CloudFront CDN S3](s3_lifecycle_glacier.md)  
+[NEXT - Transfer Acceleration](s3_transfer_acceleration.md)  
