@@ -15,7 +15,7 @@
 * Sticky Sessions enable your users to stick to the same EC2 instances. Can be useful if you are storing information locally to that instance;  
 * Cross Zone Load Balance enables you to load balance across multiple availability zones;  
 * Path patters allow you to direct traffic to different EC2 instances based on the URL contained in the requests;
-
+* A spread placement group is a group of instances that are each placed on distinct underlying hardware
 
 ### CloudFormation  
 
