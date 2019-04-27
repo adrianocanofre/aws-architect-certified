@@ -1,17 +1,17 @@
 # SQS  
 
 SQS is a web service that gives  you access to a message queue that can be used to store messages while for a computer to process them.  
-Amazon SQS is a distributed queue system that enables web service applications to quickly and reliably queue messages that one component inthe application generates to be consumed by another component. A queue is a temporary repository for messages that are awaiting processing.  
+Amazon SQS is a distributed queue system that enables web service applications to quickly and reliably queue messages that one component in the application generates to be consumed by another component. A queue is a temporary repository for messages that are awaiting processing.  
 
 Using SQS, you can decouple the components of an application so they run independently, easing message management between components.  
 
-Messages can contani up to 256kb of text in any format.
+Messages can contain up to 256kb of text in any format.
 
 
 **Two types**:  
 
 * Standard Queues(default)  
-A stanard queue lets you have a nearly-unlimited number of transactions per second. Standard queues guarantee that a message is delivered at least once. However, occasionally, more than one copy of a message might be delivered out of order. Standard queues provide best-effort ordering which ensures that messages are generally delivered in the same order as they are sent.  
+A standard queue lets you have a nearly-unlimited number of transactions per second. Standard queues guarantee that a message is delivered at least once. However, occasionally, more than one copy of a message might be delivered out of order. Standard queues provide best-effort ordering which ensures that messages are generally delivered in the same order as they are sent.  
 
 * FIFO(First-In-First-Out)  
 FIFO queue complements the standard queue. The most important features of this queue type are FIFO delivery and exactly-once processing: The order in which messages are sent and received is strictly preserved and a message is delivered once and remains available until a consumer processes and deletes it; duplicated are not introduced into the queue.  
