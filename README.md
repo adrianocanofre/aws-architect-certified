@@ -58,7 +58,11 @@
 * [VPC Endpoints](topics/vpc/vpc_endpoints.md)  
 * [Tips](topics/vpc/tips.md)  
 
-### HA Architecture  
+### HA Architecture   
+* [LOAD Balance](topics/ha/load_balance.md)
+* [AutoScaling](topics/ha/autoscaling.md)
+* [ELB and Healthcheck](topics/ha/elb_and_healthcheck.md)
+* [Tips](topics/ha/tips.md)  
 
 #### Application Services  
 * [SQS](topics/applications/sqs.md)
