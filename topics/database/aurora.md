@@ -5,7 +5,7 @@ Amazon Aurora is a MySQl - Compatible, relation database engine that combines th
 About Aurora:  
 * Start with 10GB, scales in 10GB increments to 64TB(storage Autoscaling);  
 * Compute resources can scale up to 32vCPUs and 244GB of Memory;  
-* 2 copies of your data is contained in each availability zine, with minimum of 3 availability zones. 6 copies of your data;  
+* 2 copies of your data is contained in each availability zone, with minimum of 3 availability zones. 6 copies of your data;  
 
 ### Scaling Aurora  
 

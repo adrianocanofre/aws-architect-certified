@@ -1,8 +1,5 @@
 # Database  
 
-https://aws.amazon.com/products/databases/  
-
-
 **RDS**  
 
 * SQL  
@@ -32,4 +29,5 @@ ElastiCache supports two open-source in-memory caching engines:
 * Redis
 * Memcache  
 
+https://aws.amazon.com/products/databases/  
 [NEXT - RDS](../database/rds.md)
