@@ -61,3 +61,5 @@
 * Redis is Multi-AZ;  
 * You can do back ups and restores of Redis;  
 * If you need to scale horizontally, use Memcached;  
+
+[NEXT - Route53](../route53/overview.md)
