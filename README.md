@@ -59,7 +59,7 @@
 * [Tips](topics/vpc/tips.md)  
 
 ### HA Architecture   
-* [LOAD Balance](topics/ha/load_balance.md)
+* [Load Balance](topics/ha/load_balance.md)
 * [AutoScaling](topics/ha/autoscaling.md)
 * [ELB and Healthcheck](topics/ha/elb_and_healthcheck.md)
 * [Tips](topics/ha/tips.md)  

@@ -36,4 +36,7 @@ With Elastic Beanstalk , you can quickly deploy and manage application in the  A
 
 
 https://d1.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf  
-https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf
+https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf  
+
+
+[NEXT - Application](../applications/sqs.md)
