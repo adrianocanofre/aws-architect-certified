@@ -6,8 +6,8 @@ You can easily customize the network configuration for your VPC. For example, yo
 
 Additionally, you can create a Hardware Virtual Private Network(VPN) connection between your corporate datacenter and your VCP and leverage the AWS cloud as an extension of your corporate datacenter.  
 
-{IMG}  
-
+![VPC](/imgs/vpc-diagram.png)  
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
 **What can we do with a VPC?**
 
@@ -35,8 +35,9 @@ Additionally, you can create a Hardware Virtual Private Network(VPN) connection 
 * Peering is in a star configure: ie 1 central VPC peers with 4 others. NO TRANSITIVE PEERING;  
 * You can peer between regions;  
 
-[IMG]  
+![PEERING](/imgs/vpc-peering.png)  
+https://aws.amazon.com/answers/networking/aws-multiple-region-multi-vpc-connectivity/
 
 https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
 
-[NEXT - NAT](vpc/nat.md)
+[NEXT - NAT](nat.md)

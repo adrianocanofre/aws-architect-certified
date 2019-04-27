@@ -1,1 +1,1 @@
-[NEXT - VPC Flow Logs](vpc/vpc_flow_logs.md)
+[NEXT - VPC Flow Logs](vpc_flow_logs.md)

@@ -66,4 +66,6 @@ Use cidr.xyz for calculate a range.
 
 * Direct Connect directly connects your data center to AWS;  
 * Useful for high throughput workloads (ie lost of network traffic);  
-* Or if you need a stable and reliable secure connection;  
+* Or if you need a stable and reliable secure connection;    
+
+[NEXT - HA Architecture](../ha/load_balance.md)
