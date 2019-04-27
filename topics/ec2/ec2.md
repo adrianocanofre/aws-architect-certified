@@ -4,14 +4,14 @@ EC2 is a web service that provides resizable compute capacity in the cloud. EC2 
 
 ### EC2 Pricing Models  
 
-* On Demand  
+**On Demand**  
 > Allows you to pay a fixed rate by the hour(or by second) with no commitment.  
 
   * Users that want the low cost and flexibility of EC2 without any up-front payment or long-term commitment.  
   * Applications with short term, spiky, or unpredictable workloads that cannot be interrupted.  
   * Applications being developed or tested on Amazon EC2 for the first time.  
 
-* Reserved  
+**Reserved**  
 > Provides you with a capacity reservation, and offer a significant discount on the hourly charge for an instance. Contract Terms are 1 year or 3 Year terms.  
 
   * Applications with steady state or predictable usage;  
@@ -28,7 +28,7 @@ EC2 is a web service that provides resizable compute capacity in the cloud. EC2 
     * Scheduled Reserved;  
     > These are available to launch within the time windows you reserve. This option allows you match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month.  
 
-* Spot  
+**Spot**  
 > Enable you to bid whatever price you want for instance capacity, providing for even greater savings if your applications have flexible start and end times.  
 
   * Application that have flexible start and end times;
