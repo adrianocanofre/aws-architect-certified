@@ -4,11 +4,11 @@
 
 **Snowball**  
 
-Snowball is a petabyte-scale data transport solution that uses secure appliancess to transfer large amount of data into and out of AWS.  
+Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amount of data into and out of AWS.  
 
 **Snowball Edge**  
 
-Snowball Edge connects to yout existing applications and infrastructure using standard interfaces, streamming  the data transfer process and minimizing setup and integration.
+Snowball Edge connects to your existing applications and infrastructure using standard interfaces, streaming  the data transfer process and minimizing setup and integration.
 
 **Snowmobile**  
 
@@ -22,4 +22,4 @@ Snowmobile is an Exabyte-scale data transfer service used to move extremely larg
   * Import to S3;
   * Export from S3;
 
-* [Storage Gateway](storage_gateway.md)
+[NEXT - Storage Gateway](storage_gateway.md)

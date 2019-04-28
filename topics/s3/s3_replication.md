@@ -4,15 +4,18 @@
 
 Amazon s3 replicated only specific items in buckets that are configured for cross-region replication.  
 
-### Tips  
+### Requirements for CRR  
 
 * Versioning must be enabled on both the source and destination buckets;  
 * Regions must be unique;  
 * Files in an existing bucket are not replicated automatically. All subsequent updated files will be replicated automatically;  
-* You cannot replicate to multiple buckets or use daisy chaning(at this time);  
+* You cannot replicate to multiple buckets or use daisy changing(at this time);  
 * Delete markers are NOT replicated;  
 * Deleting individual versions or delete markers will not be replicated;  
-* Understand what Cross Region Replication is at a High Level;
+* Understand what Cross Region Replication is at a High Level;  
+* Source and destinations must be in different AWS Regions;  
+* Encrypted objects server-side;  
+
 
 [Replication rules](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-what-is-isnot-replicated.html)  
 [CRR Monitor](https://aws.amazon.com/solutions/cross-region-replication-monitor/)  

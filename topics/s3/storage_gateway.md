@@ -8,29 +8,27 @@ Storage Gateway's software appliance is available for download as a virtual mach
 ### Types of storage Gateway  
 
 **File Gateway(NFS)**  
-Files are stored  as objects in your S# buckets, accessed through a Network File System (NFS) mount point. Ownership, permissions, and timestamps are durably stored in S# in the user-metadata of the object associated with the file. Once objects are transferred to S3, they can be managed as native S3 objects, and bucket policies such as versioning, lifecycle management, and cross-region replication apply directly to object stored in your bucket.   
-
-[File manage img]  
+Files are stored  as objects in your S3 buckets, accessed through a Network File System (NFS) mount point. Ownership, permissions, and timestamps are durably stored in S3 in the user-metadata of the object associated with the file. Once objects are transferred to S3, they can be managed as native S3 objects, and bucket policies such as versioning, lifecycle management, and cross-region replication apply directly to object stored in your bucket.   
 
 **Volumes Gateways(ISCSI)**  
 
 The volume interface presents your application with disk volumes using the ISCSI block protocol.  
 
 * Stored Volumes;  
-  Stored volumes let you sore your primary data locally, while asynchronously backing up that data to AWS. Stored volumes provide your on-premises applications with low-latency access to their entire datasets, while providing durable, off-site backups. You can create storage volumes and mount then as ISCSI devices from your on-premises application servers.  
+  Stored volumes let you score your primary data locally, while asynchronously backing up that data to AWS. Stored volumes provide your on-premises applications with low-latency access to their entire datasets, while providing durable, off-site backups. You can create storage volumes and mount then as ISCSI devices from your on-premises application servers.  
 
-  [IMG]
+  ![STORED](/imgs/aws-storage-gateway-stored-diagram.png)
 
 * Cached Volumes;  
   Cached volumes let you use s3 as your primary data storage while retaining frequently accessed data locally in your storage gateway. Cached volumes minimize the need to scale your on-premises storage infrastructure, while still providing your applications with low-latency access to their frequently accessed data. You can create storage volumes up 32 TiB in size and attach to them as ISCSI devices from your on-premisse application servers.  
 
-  [IMG]
+  ![CACHED](/imgs/aws-storage-gateway-cached-diagram.png)
 
 **Tape Gateway(VTL)**  
 
 Tape Gateway offers a durable, cost-effective solution to archive your data in the AWS Cloud.  The VTL interface it provides lets you leverage your existing tape-based backup application infrastructure to store data on virtual tape cartridges that you create on your  tape gateway. Each tape gateway is preconfigured with  a media changer and tape drives, which ate available to your existing client backup applications as ISCSI devices. You add tape cartridges as you need to archive your data. Supported by NetBackup, Backup Exec, Veeam etc.  
 
-[IMG]  
+![VTL](/imgs/Gateway-VTL-Architecture2-diagram.png)  
 
 ### Tips  
 
