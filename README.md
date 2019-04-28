@@ -9,6 +9,7 @@
 
 #### Object Storage and CDN  
 * [Overview S3](topics/s3/s3.md)  
+* [S3 Bucket](topics/s3/s3_bucket.md) 
 * [S3 Version Control](topics/s3/s3_versioning.md)  
 * [Cross Region Replication](topics/s3/s3_replication.md)  
 * [Lifecycle Management & Glacier](topics/s3/s3_lifecycle_glacier.md)  
