@@ -27,27 +27,6 @@
     * ACL;  
     * torrent;
 
-
-**S3**  
-
-* Remember that S3 is Object Based i.e. allows you to upload files;  
-* Files can be from 0 Bytes to 5TB;  
-* There is unlimited storage;  
-* Files are stored in Buckets;  
-* S3 is a universal namespace, that is, names must be unique globally;  
-* Read after Write consistency for PUTS of new Objects;  
-* Eventual Consistency for overwrite PUTS and DELETES(can take some time to propagate);  
-* Remember the core fundamentals of S3:
-  * Key(name);
-  * Value(data);
-  * Version ID;
-  * Metadata;  
-  * ACL;
-* Object based storage only(For Files);  
-* Not suitable to install an operating System on;  
-* Write to S3 - HTTP 200 code for a successful write;
-
-
 **Storage Tiers/Classes**  
 
 * S3 Standard: 99,99% availability, 99,9999999999% durability, stored redundantly across multiple devices in multiple facilities, and is designed to sustain the loss of 2 facilities concurrently;  
@@ -136,4 +115,4 @@
 * Very cheap, scales automatically;
 * STATIC only, cannot host dynamic sites;  
 
-[NEXT - EC2](ec2.md)
+[NEXT - EC2](../ec2/ec2.md)
