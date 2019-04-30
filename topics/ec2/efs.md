@@ -9,4 +9,4 @@ Amazon Elastic File System(EFS) is a file storage service for EC2 instances. Ama
 * Data is stored across multiple AZ's within a region;  
 * Read after Write consistency;  
 
-[Tips](topics/ec2/tips.md)
+[Tips](tips.md)
